@@ -1,5 +1,9 @@
 # React Redux Epic
 
+This is an updated fork of the original library by BerkelyTrue which supports redux-observable@1.x, redux@4.x and rxjs@6.x
+
+See: https://github.com/BerkeleyTrue/react-redux-epic/pull/37
+
 [![Greenkeeper badge](https://badges.greenkeeper.io/BerkeleyTrue/react-redux-epic.svg)](https://greenkeeper.io/)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![Build Status](https://travis-ci.org/BerkeleyTrue/react-redux-epic.svg?branch=master)](https://travis-ci.org/BerkeleyTrue/react-redux-epic) [![Coverage Status](https://coveralls.io/repos/github/BerkeleyTrue/react-redux-epic/badge.svg?branch=master)](https://coveralls.io/github/BerkeleyTrue/react-redux-epic?branch=master)
 

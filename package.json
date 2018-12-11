@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-epic",
+  "name": "@jdachtera/react-redux-epic",
   "version": "2.0.0",
   "description": "Server side rendering for Redux-Observable",
   "main": "lib",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BerkeleyTrue/react-redux-epic.git"
+    "url": "https://github.com/jdachtera/react-redux-epic.git"
   },
   "keywords": [
     "react",
