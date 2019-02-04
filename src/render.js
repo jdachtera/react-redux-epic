@@ -1,4 +1,4 @@
-import { render as _render, unmountComponentAtNode } from 'react-dom';
+import { hydrate as _hydrate, unmountComponentAtNode } from 'react-dom';
 import { Observable } from 'rxjs/Observable';
 
 // render(
@@ -9,7 +9,7 @@ import { Observable } from 'rxjs/Observable';
 export default function render(element, container) {
   return Observable.create(observer => {
     try {
-      _render(element, container, function() {
+      _hydrate(element, container, function() {
         observer.next();
       });
     } catch (err) {
